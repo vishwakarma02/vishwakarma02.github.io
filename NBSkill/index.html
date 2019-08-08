@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Skill-Test</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body onload="notice()">
+    <div class="blank">
+      <button type="button" name="button" onclick="myToggle()">&#9776;</button>
+    </div>
+    <div class="titlebar">
+      <b>35 Search Results</b> for "Preview"
+    </div>
+    <div class="menu">
+      <div class="menu-item profile">
+        <img src="images/profilepic.jpg" alt="sample">
+        <span>15</span>
+        <div>Profile</div>
+      </div>
+      <div class="menu-item">
+        <img src="images/events.png" alt="sample">
+        <span>&#43;</span>
+        <div>TO Do</div>
+      </div>
+      <div class="menu-item notification">
+        <img src="images/notification.png" alt="sample">
+        <span>&#43;</span>
+        <div>Notifications</div>
+      </div>
+      <div class="menu-item">
+        <img src="images/todo.png" alt="sample">
+        <span>&#43;</span>
+        <div>Organiser</div>
+      </div>
+      <div class="menu-item">
+        <img src="images/progress.png" alt="sample">
+        <!-- <span>&#43;</span> -->
+        <div>Progress</div>
+      </div>
+      <div class="menu-item active">
+        <img src="images/search.png" alt="sample">
+        <!-- <span>&#43;</span> -->
+        <div>Search</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <form class="search" action="index.html" method="post">
+        <span class="searchbx shadow-border rounded-corners">
+          <img src="images/search-icon.png" alt="sample">
+          <input class="rounded-corners" type="text" name="searchbox" value="" placeholder="Search">
+        </span>
+        <label>
+          <input type="checkbox"><span class="text">Todos</span>
+        </label>
+        <label>
+          <input type="checkbox"><span class="text">Discussions</span>
+        </label>
+        <label>
+          <input type="checkbox"><span class="text">Files</span>
+        </label>
+        <label>
+          <input type="checkbox"><span class="text">Progress</span>
+        </label>
+        <label>
+          <input type="checkbox"><span class="text">Team Memebers</span>
+        </label>
+      </form>
+      <div class="main-container shadow-border">
+
+        <div class="x-content">
+          <div class="x-logo">
+            <div>
+              <img src="images/files.png" alt="sample"><br>
+              <div>17 July</div>
+            </div>
+          </div>
+          <div class="x-data">
+            <div class="first">
+              <img src="images/docx.png" alt="sample">
+            </div>
+            <div class="x-second">
+              <div class="second">
+                <b>preview_timeline_v1.jpg</b><sup>TAG</sup>
+                <br>
+                Attatched to the comment <u>timeline_wireframes</u> By Bharat
+                <br>
+                <a class="download" href="#">Download</a>
+                <br>
+                <span class="tag">timeline &#10006;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="x-content">
+          <div class="x-logo">
+            <div>
+              <img src="images/files.png" alt="sample"><br>
+              <div>17 July</div>
+            </div>
+          </div>
+          <div class="x-data">
+            <div class="x-second">
+              <div class="second">
+                <img src="images/Screenshot-1.png" alt="sample">
+                <b>preview_timeline_v1.jpg</b><sup>TAG</sup>
+                <br>
+                Attatched to the comment <u>timeline_wireframes</u> By Bharat
+                <br>
+                <a class="download" href="#">Download</a>
+              </div>
+              <div class="second">
+                <img src="images/Screenshot-2.png" alt="sample">
+                <b>preview_timeline_v1.jpg</b><sup>TAG</sup>
+                <br>
+                Attatched to the comment <u>timeline_wireframes</u> By Bharat
+                <br>
+                <a class="download" href="#">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="x-content">
+          <div class="x-logo">
+            <div>
+              <img src="images/files.png" alt="sample"><br>
+              <div>17 July</div>
+            </div>
+          </div>
+          <div class="x-data">
+            <div class="first">
+              <img src="images/xlsx.png" alt="sample">
+            </div>
+            <div class="x-second">
+              <div class="second">
+                <b>preview_timeline_v1.jpg</b><sup>TAG</sup>
+                <br>
+                Attatched to the comment <u>timeline_wireframes</u> <span class="fade">By <u>Bharat</u></span>
+                <br>
+                <a class="download" href="#">Download</a>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="x-content msg">
+          <div class="x-logo">
+            <div>
+              <img src="images/messages.png" alt="sample"><br>
+              <div>17 July</div>
+            </div>
+          </div>
+          <div class="x-data">
+          <div class="x-second">
+              <div class="first">
+                <img src="images/profilepic.jpg" alt="sample"><br>
+                <b>Vijay Kumar Vishwakarma</b><br>
+                <i>12 October 2017</i>
+              </div>
+              <div class="second">
+                <b>Discussion name will go here</b>
+                <br>
+                I like the clean look of UI, but one of the issues I have is that
+                it seems to encourage a <span class="highlight">contect shift for the user</span>
+                frequently. For eg. Task and schedular are closely tied together.
+                <br>
+                <span class="fade">under</span>
+                <u><b>Sharing of final proposal</b></u>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="x-content">
+          <div class="x-logo">
+            <div>
+              <img src="images/bell-logo.png" alt="sample"><br>
+              <div>17 July</div>
+            </div>
+          </div>
+          <div class="x-data">
+            <div class="x-second">
+              <div class="second">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+                <br>
+                <span class="fade">Bharat &nbsp; &nbsp; 4 Comments</span>
+                <br>
+                <br>
+                <del>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat.
+                  <br>
+                </del>
+                <span class="fade">Bharat &nbsp; &nbsp; 4 Comments</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="x-content">
+          <div class="x-data show-more">
+            Show more
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var menuItem = document.getElementsByClassName("menu-item");
+      var flag = 0;
+      window.onresize = resize;
+      function resize(){
+        if(window.innerWidth > 770 ){
+          for (var i = 0; i < menuItem.length; i++) {
+            menuItem[i].style.display = "flex";
+          }
+        }
+        else{
+          for (var i = 0; i < menuItem.length; i++) {
+            menuItem[i].style.display = "none";
+          }
+        }
+      }
+      function myToggle(){
+        if (flag == 0) {
+          for (var i = 0; i < menuItem.length; i++) {
+            menuItem[i].style.display = "flex";
+          }
+          flag = 1;
+        }
+        else{
+          for (var i = 0; i < menuItem.length; i++) {
+            menuItem[i].style.display = "none";
+          }
+          flag = 0;
+        }
+      }
+      function notice(){
+        window.alert("Best viewed at Google Chrome");
+      }
+    </script>
+  </body>
+</html>
